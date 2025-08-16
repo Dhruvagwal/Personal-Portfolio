@@ -6,7 +6,6 @@
 	export let description: string;
 	export let dates: string;
 	export let location: string;
-	export let image: string = '';
 	export let links: readonly {
 		icon?: any;
 		title: string;
@@ -15,12 +14,7 @@
 </script>
 
 <li class="relative ml-10 py-4">
-	<div class="absolute -left-16 top-2 flex items-center justify-center rounded-full bg-white">
-		<Avatar.Root class="m-auto size-12 border">
-			<Avatar.Image src={image} alt={title} class="object-contain" />
-			<Avatar.Fallback>{title[0]}</Avatar.Fallback>
-		</Avatar.Root>
-	</div>
+
 	<div class="flex flex-1 flex-col justify-start gap-1">
 		{#if dates}
 			<time class="text-xs text-muted-foreground">{dates}</time>

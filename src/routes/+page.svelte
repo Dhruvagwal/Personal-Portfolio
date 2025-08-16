@@ -152,30 +152,26 @@
 			</div>
 		</div>
 	</section>
-	<section id="hackathons">
+	<section id="achievements">
 		<div class="w-full space-y-12 py-12">
 			<BlurFade delay={BLUR_FADE_DELAY}>
 				<div class="flex flex-col items-center justify-center space-y-4 text-center">
 					<div class="space-y-2">
 						<div class="inline-block rounded-lg bg-foreground px-3 py-1 text-sm text-background">
-							Hackathons
+							Achievements
 						</div>
 						<h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">I like building things</h2>
 						<p
 							class="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
 						>
-							During my time in university, I attended{' '}
-							{DATA.hackathons.length}+ hackathons. People from around the country would come
-							together and build incredible things in 2-3 days. It was eye-opening to see the
-							endless possibilities brought to life by a group of motivated and passionate
-							individuals.
+							From winning hackathons to co-founding startups, I’ve consistently transformed ideas into impactful products and solutions.
 						</p>
 					</div>
 				</div>
 			</BlurFade>
 			<BlurFade delay={BLUR_FADE_DELAY * 2}>
 				<ul class="mb-4 ml-4 divide-y divide-dashed border-l">
-					{#each DATA.hackathons as project}
+					{#each DATA.achievements as project}
 						<BlurFade delay={BLUR_FADE_DELAY}>
 							<HackathonCard {...project} />
 						</BlurFade>
@@ -195,9 +191,9 @@
 					<p
 						class="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"
 					>
-						Want to chat? Just shoot me a dm
-						<a href={DATA.contact.social.X.url} class="text-blue-500 hover:underline">
-							with a direct question on twitter
+						Want to chat? Just send me hi
+						<a href={`mailto:${DATA.contact.email}`} class="text-blue-500 hover:underline">
+							with a direct email
 						</a>
 						and I&apos;ll respond whenever I can. I will ignore all soliciting.
 					</p>

@@ -23,7 +23,7 @@ export let DATA = {
 	initials: 'DA',
 	url: 'https://github.com/Dhruvagwal',
 	img: 'https://i.pinimg.com/736x/9e/dc/a6/9edca66eba199828bda2dbaf35642154.jpg',
-	location: 'Mumbai, India',
+	location: 'Delhi, India',
 	locationLink: 'https://www.google.com/maps/place/mumbai',
 	description: 'Software Engineer with AIML Specialization',
 	summary:
@@ -61,7 +61,7 @@ export let DATA = {
 		{ href: '#projects', icon: CodeIcon, label: 'Projects' }
 	],
 	contact: {
-		email: 'dhruvaggawral256@gmail.com',
+		email: 'dhruvaggarwal256@gmail.com',
 		tel: '+918595771213',
 		social: {
 			GitHub: {
@@ -90,7 +90,7 @@ export let DATA = {
 			},
 			email: {
 				name: 'Send Email',
-				url: '#',
+				url: '',
 				// // icon: Icons.email,
 				icon: GmailSvg,
 				navbar: false,
@@ -277,114 +277,41 @@ export let DATA = {
 		}
 	],
 
-	hackathons: [
+	achievements: [
 		{
-			title: 'DeveloperWeek Hackathon',
-			dates: 'February 3rd - 4th, 2018',
-			location: 'San Francisco, California',
+			title: 'Co-founded Sheetsway',
 			description:
-				'Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.',
-			image: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg',
-			links: [
-				{
-					title: 'Github',
-					icon: Github,
-					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/cryptotrends/cryptotrends'
-				}
-			]
+				'Scaled Sheetsway into an AI-powered audit automation platform adopted by 20+ audit firms including Big 4. Achieved a $15M valuation by improving audit efficiency by 50% and reducing costs by 63%.',
+			dates: 'May 2023 – Jun 2025',
+			location: 'San Gwann, Malta (Remote)'
 		},
 		{
-			title: 'HackDavis',
-			dates: 'January 20th - 21st, 2018',
-			location: 'Davis, California',
+			title: 'Winner – Dron Hackathon 2024',
 			description:
-				'Developed a mobile application which allocates a daily carbon emission allowance to users to move towards a sustainable environment.',
-			image: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-davis.png',
-			win: 'Best Data Hack',
-			mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2018/white.svg',
-			links: [
-				{
-					title: 'Devpost',
-					icon: Globe,
-					// icon: <Icons.globe className="h-4 w-4" />,
-					href: 'https://devpost.com/software/my6footprint'
-				},
-				{
-					title: 'ML',
-					icon: Github,
-					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/Wallet6/my6footprint-machine-learning'
-				},
-				{
-					title: 'iOS',
-					icon: Github,
-					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/Wallet6/CarbonWallet'
-				},
-				{
-					title: 'Server',
-					icon: Github,
-					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/Wallet6/wallet6-server'
-				}
-			]
+				'Built an AI Avatar Interaction plugin for Google Meet/Zoom that mirrored facial expressions and full-body motion, with real-time translation into 197 languages. Won 1st prize.',
+			dates: 'Dec 2024',
+			location: 'Delhi, India'
 		},
 		{
-			title: 'ETH Waterloo',
-			dates: 'October 13th - 15th, 2017',
-			location: 'Waterloo, Ontario',
+			title: 'Built 100+ Products',
 			description:
-				'Developed a blockchain application for doctors and pharmacists to perform trustless transactions and prevent overdosage in patients.',
-			image: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/eth-waterloo.png',
-			links: [
-				{
-					title: 'Organization',
-					icon: Github,
-					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/ethdocnet'
-				}
-			]
+				'Developed multiple platforms including AuditBrew, Maltaxplore, Anitix, Onelang, and Track Your Race — showcasing expertise across AI, SaaS, and cross-platform apps.',
+			dates: '2020 – 2025',
+			location: 'Global (Remote)'
 		},
 		{
-			title: 'Hack The North',
-			dates: 'September 15th - 17th, 2017',
-			location: 'Waterloo, Ontario',
+			title: 'Global Recognition',
 			description:
-				'Developed a virtual reality application allowing users to see themselves in third person.',
-			image: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png',
-			mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2017/white.svg',
-			links: [
-				{
-					title: 'Streamer Source',
-					icon: Github,
-					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/justinmichaud/htn2017'
-				},
-				{
-					title: 'Client Source',
-					icon: Github,
-					// icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/dillionverma/RTSPClient'
-				}
-			]
+				'Received attention from major audit firms and support from Clyde Caruana (Minister of Malta) for Sheetsway’s impact on the audit industry.',
+			dates: '2024',
+			location: 'Malta'
 		},
-
 		{
-			title: 'Portal Hackathon',
-			dates: 'October 29, 2016',
-			location: 'Kingston, Ontario',
+			title: 'Self-Taught Developer',
 			description:
-				"Developed an internal widget for uploading assignments using Waterloo's portal app",
-			image: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/portal-hackathon.png',
-			links: [
-				{
-					title: 'Source',
-					icon: Github,
-					//   // icon: <Icons.github className="h-4 w-4" />,
-					href: 'https://github.com/UWPortalSDK/crowmark'
-				}
-			]
+				'Over 8 years of programming experience, mastering React, Next.js, Flutter, AI/ML frameworks (PyTorch, TensorFlow), and cloud platforms (AWS, Azure, GCP).',
+			dates: '2016 – Present',
+			location: 'Delhi, India'
 		}
 	]
 };
