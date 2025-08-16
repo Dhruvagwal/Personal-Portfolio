@@ -172,40 +172,12 @@ export let DATA = {
 
 	projects: [
 		{
-			title: 'AuditBrew',
-			href: 'https://auditbrew.com',
-			dates: '2025',
-			active: true,
-			description:
-				'Built an AI-powered audit automation platform designed to streamline external audits. Integrated data ingestion, document organization, and reporting workflows to cut audit time and costs significantly. Developed responsive UI and scalable backend services for high performance under enterprise loads.',
-			technologies: [
-				'Next.js',
-				'Typescript',
-				'PostgreSQL',
-				'Node.js',
-				'Python',
-				'TailwindCSS',
-				'Shadcn UI',
-				'Vercel',
-				'AWS'
-			],
-			links: [
-				{
-					type: 'Website',
-					href: 'https://auditbrew.com',
-					icon: Globe
-				}
-			],
-			image: 'https://www.auditbrew.com/images/landing/hero/navigation.png',
-			video: ''
-		},
-		{
 			title: 'Maltaxplore',
 			href: 'https://maltaxplore.com',
 			dates: '2024',
 			active: true,
 			description:
-				'Tourism and local discovery platform for Malta, helping visitors and residents explore attractions, events, and businesses. Built with a responsive UI, scalable backend, and optimized for speed to handle high user traffic.',
+				'Built a tourism and local discovery platform for Malta, helping visitors and residents explore attractions, events, and businesses. Designed with responsive UI and fast backend services to handle growing traffic.',
 			technologies: ['Next.js', 'Typescript', 'PostgreSQL', 'TailwindCSS', 'Shadcn UI', 'Vercel'],
 			links: [
 				{
@@ -223,8 +195,8 @@ export let DATA = {
 			dates: '2023',
 			active: false,
 			description:
-				'Developed a cross-platform Flutter app for anime lovers with personalized dashboards and AI-powered recommendations. Implemented smart search and filtering for anime/manga discovery, delivering a sleek and engaging user experience on both Android and iOS.',
-			technologies: ['Flutter', 'Dart', 'Firebase', 'Python', 'TensorFlow', 'TailwindCSS'],
+				'Developed an anime-focused platform integrating recommendation systems and personalized dashboards. Implemented AI-based search and filtering for anime/manga content discovery.',
+			technologies: ['React', 'Next.js', 'Typescript', 'Node.js', 'Python', 'TailwindCSS'],
 			links: [],
 			image: 'https://vaibhav-portfolio-c9f3e.web.app/_next/static/media/anitix-large.e76e2eb8.png',
 			video: ''
@@ -235,44 +207,94 @@ export let DATA = {
 			dates: 'Dec 2024',
 			active: false,
 			description:
-				'Built a plugin for Google Meet and Zoom enabling personalized avatars that mirror facial expressions and full-body motion. Added real-time translation into 197 languages. Won 1st prize at the Dron Hackathon for innovation and execution.',
+				'Developed a plugin for Google Meet and Zoom enabling personalized avatars that sync with facial expressions and full-body motion. Implemented real-time translation into 197 languages, winning 1st prize at the Dron Hackathon.',
 			technologies: ['Python', 'TensorFlow', 'PyTorch', 'React', 'Next.js', 'WebRTC', 'Node.js'],
 			links: [],
 			image: 'https://vaibhav-portfolio-c9f3e.web.app/_next/static/media/motion.6842cfce.jpeg',
-			video:
-				'https://firebasestorage.googleapis.com/v0/b/onelangworld.appspot.com/o/motion-demo.845ae6be.mp4?alt=media&token=6e567151-e66e-40ac-9f55-1fbd8ad68470'
+			video: 'https://firebasestorage.googleapis.com/v0/b/onelangworld.appspot.com/o/motion-demo.845ae6be.mp4?alt=media&token=6e567151-e66e-40ac-9f55-1fbd8ad68470'
 		},
 		{
-			title: 'Onelang 2.0',
+			title: 'AI Avatar Interaction (Hackathon Project)',
 			href: '',
-			dates: '2024',
+			dates: 'Dec 2024',
 			active: false,
 			description:
-				'Second-generation version of Onelang, an AI-powered multilingual platform. Supported document and image translation across 196 languages while preserving layout. Implemented improved transformer models and UI upgrades.',
-			technologies: [
-				'Python',
-				'TensorFlow',
-				'PyTorch',
-				'Transformers',
-				'React',
-				'Next.js',
-				'Node.js'
-			],
+				'Developed a plugin for Google Meet and Zoom enabling personalized avatars that sync with facial expressions and full-body motion. Implemented real-time translation into 197 languages, winning 1st prize at the Dron Hackathon.',
+			technologies: ['Python', 'TensorFlow', 'PyTorch', 'React', 'Next.js', 'WebRTC', 'Node.js'],
 			links: [],
 			image: '',
-			video:
-				'https://firebasestorage.googleapis.com/v0/b/onelangworld.appspot.com/o/Onelang.34a6c092.mp4?alt=media&token=990e5e19-ed75-46ac-ac0d-b25ab2c493a5'
+			video: ''
 		},
 		{
-			title: 'Track Your Race',
+			title: 'AI Avatar Interaction (Hackathon Project)',
 			href: '',
-			dates: '2024',
+			dates: 'Dec 2024',
 			active: false,
 			description:
-				'Developed a real-time event tracking and race management platform. Provided live tracking, progress dashboards, and participant statistics with a responsive UI and optimized backend for scalability.',
-			technologies: ['React', 'Next.js', 'Node.js', 'Python', 'PostgreSQL', 'TailwindCSS'],
+				'Developed a plugin for Google Meet and Zoom enabling personalized avatars that sync with facial expressions and full-body motion. Implemented real-time translation into 197 languages, winning 1st prize at the Dron Hackathon.',
+			technologies: ['Python', 'TensorFlow', 'PyTorch', 'React', 'Next.js', 'WebRTC', 'Node.js'],
 			links: [],
-			image: 'https://i.ibb.co/pjP6gR0b/image.png',
+			image: '',
+			video: ''
+		},
+		{
+			title: 'AI Avatar Interaction (Hackathon Project)',
+			href: '',
+			dates: 'Dec 2024',
+			active: false,
+			description:
+				'Developed a plugin for Google Meet and Zoom enabling personalized avatars that sync with facial expressions and full-body motion. Implemented real-time translation into 197 languages, winning 1st prize at the Dron Hackathon.',
+			technologies: ['Python', 'TensorFlow', 'PyTorch', 'React', 'Next.js', 'WebRTC', 'Node.js'],
+			links: [],
+			image: '',
+			video: ''
+		},
+		{
+			title: 'AI Avatar Interaction (Hackathon Project)',
+			href: '',
+			dates: 'Dec 2024',
+			active: false,
+			description:
+				'Developed a plugin for Google Meet and Zoom enabling personalized avatars that sync with facial expressions and full-body motion. Implemented real-time translation into 197 languages, winning 1st prize at the Dron Hackathon.',
+			technologies: ['Python', 'TensorFlow', 'PyTorch', 'React', 'Next.js', 'WebRTC', 'Node.js'],
+			links: [],
+			image: '',
+			video: ''
+		},
+		{
+			title: 'AI Avatar Interaction (Hackathon Project)',
+			href: '',
+			dates: 'Dec 2024',
+			active: false,
+			description:
+				'Developed a plugin for Google Meet and Zoom enabling personalized avatars that sync with facial expressions and full-body motion. Implemented real-time translation into 197 languages, winning 1st prize at the Dron Hackathon.',
+			technologies: ['Python', 'TensorFlow', 'PyTorch', 'React', 'Next.js', 'WebRTC', 'Node.js'],
+			links: [],
+			image: '',
+			video: ''
+		},
+		{
+			title: 'AI Avatar Interaction (Hackathon Project)',
+			href: '',
+			dates: 'Dec 2024',
+			active: false,
+			description:
+				'Developed a plugin for Google Meet and Zoom enabling personalized avatars that sync with facial expressions and full-body motion. Implemented real-time translation into 197 languages, winning 1st prize at the Dron Hackathon.',
+			technologies: ['Python', 'TensorFlow', 'PyTorch', 'React', 'Next.js', 'WebRTC', 'Node.js'],
+			links: [],
+			image: '',
+			video: ''
+		},
+		{
+			title: 'AI Avatar Interaction (Hackathon Project)',
+			href: '',
+			dates: 'Dec 2024',
+			active: false,
+			description:
+				'Developed a plugin for Google Meet and Zoom enabling personalized avatars that sync with facial expressions and full-body motion. Implemented real-time translation into 197 languages, winning 1st prize at the Dron Hackathon.',
+			technologies: ['Python', 'TensorFlow', 'PyTorch', 'React', 'Next.js', 'WebRTC', 'Node.js'],
+			links: [],
+			image: '',
 			video: ''
 		}
 	],

@@ -174,7 +174,7 @@ export let DATA = {
 		{
 			title: 'AuditBrew',
 			href: 'https://auditbrew.com',
-			dates: '2025',
+			dates: '2024',
 			active: true,
 			description:
 				'Built an AI-powered audit automation platform designed to streamline external audits. Integrated data ingestion, document organization, and reporting workflows to cut audit time and costs significantly. Developed responsive UI and scalable backend services for high performance under enterprise loads.',

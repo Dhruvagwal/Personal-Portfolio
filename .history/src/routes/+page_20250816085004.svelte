@@ -41,9 +41,9 @@
 					<BlurFade
 						delay={BLUR_FADE_DELAY}
 						class="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-						yOffset={8}>{DATA.name}</BlurFade
+						yOffset={8}>Dhruv Aggarwal</BlurFade
 					>
-					<BlurFade class="max-w-[600px] text-muted-foreground md:text-xl" delay={BLUR_FADE_DELAY}
+					<BlurFade class="max-w-[600px] md:text-xl" delay={BLUR_FADE_DELAY}
 						>{DATA.description}</BlurFade
 					>
 				</div>
